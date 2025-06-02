@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "@/components/home/Hero";
 
 const Home = () => {
   return (
-    <div>Welcome Home</div>
-  )
-}
+    <section className="container mx-auto px-5">
+      <Hero />
+    </section>
+  );
+};
 
-export default Home
+export default Home;

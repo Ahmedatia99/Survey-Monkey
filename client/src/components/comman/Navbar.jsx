@@ -58,7 +58,11 @@ const Navbar = () => {
               <DialogTrigger asChild>
                 <Button
                   variant="outline"
-                  className="bg-purple text-white text-lg p-5 max-sm:p-2 max-sm:px-4 max-sm:text-sm"
+                  className=" text-white text-lg p-5 max-sm:p-2 max-sm:px-4 max-sm:text-sm"
+                  style={{
+                    background:
+                      "linear-gradient(320.2deg, #490F8F -0.43%, #7616EC 58.46%)",
+                  }}
                 >
                   Register
                 </Button>
