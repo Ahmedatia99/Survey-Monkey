@@ -4,17 +4,25 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Navbar from "./components/comman/Navbar";
+import { ThemeProvider } from "@/components/theme-provider";
+
 function App() {
   return (
     <>
-      <div className="h-screen w-full bg-gray-700 flex flex-col justify-center text-white items-center text-6xl">
+      <ThemeProvider
+        defaultTheme="light"
+        storageKey="vite-ui-theme"
+        className=""
+      >
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
         </Routes>
-      </div>
+      </ThemeProvider>
     </>
   );
 }
