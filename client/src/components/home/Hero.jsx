@@ -8,18 +8,14 @@ const Hero = () => {
   return (
     <div className="flex flex-col  md:flex-col lg:flex-row justify-center items-center py-10 lg:py-20 gap-8 lg:gap-10 px-4 md:px-8">
       <section className=" lg:w-1/2 flex flex-col items-start  justify-center">
-        <h1 className="text-3xl md:text-6xl lg:text-5xl text-purple font-bold">
+        <h1 className="heading text-3xl lg:text-5xl md:text-4xl">
           Create powerful surveys
           <br />
-          <span className="text-midnight dark:text-white font-bold mr-1">
-            in
-          </span>{" "}
+          <span className="sup-heading">in</span>
           minutes
-          <span className="text-midnight dark:text-white font-bold mr-1">
-            , not hours
-          </span>
+          <span className="sup-heading">, not hours</span>
         </h1>
-        <p className="text-base md:text-xl mb-6 text-gray-600 dark:text-gray-300 max-w-md mt-5">
+        <p className="sup-info max-w-md">
           Survey Infinity helps you gather actionable insights through
           beautifully designed, interactive surveys with advanced analytics and
           seamless integration.
