@@ -43,7 +43,7 @@ const Solutions = () => {
         className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-2xl mb-8 md:mb-0 order-1 lg:order-2"
       />
       <div className="w-full md:w-auto order-2 md:order-1">
-        <div className="flex flex-col items-start justify-start text-center">
+        <div className="flex flex-col items-start justify-start text-start">
           <h1 className="sup-heading max-w-3xl text-3xl lg:text-5xl md:text-4xl text-start !text-black">
             <span className="heading mr-2 !text-white">Enterprise</span>
             solutions for teams of all
@@ -51,7 +51,7 @@ const Solutions = () => {
           </h1>
           <p className="sup-info text-sm md:text-lg !text-white text-start mt-2">
             Scale your research capabilities with advanced features designed for
-            teams and organizations..
+            teams and organizations.
           </p>
         </div>
         <div className="flex flex-col mt-6">
@@ -63,7 +63,7 @@ const Solutions = () => {
               </p>
             </div>
           ))}
-          <Button className="bg-white text-purple hover:bg-translate flex items-center justify-center w-fit mt-5">
+          <Button className="bg-white text-purple hover:bg-transparent flex items-center justify-center w-fit mt-5">
             Learn about Enterprise solutions <MoveRight />
           </Button>
         </div>
