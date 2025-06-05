@@ -72,12 +72,15 @@
     @apply text-midnight border-b-2 border-transparent hover:text-purple hover:border-b-2 hover:border-purple transition-colors duration-300 text-xl md:text-lg font-semibold dark:text-white dark:hover:text-purple;
   }
   .heading {
-    @apply  text-purple font-bold;
+    @apply text-purple font-bold;
   }
   .sup-heading {
-    @apply  text-midnight dark:text-white font-bold mr-1;
+    @apply text-midnight dark:text-white font-bold mr-1;
   }
   .sup-info {
     @apply text-sm  mb-6 text-gray-600 dark:text-gray-300  mt-5;
+  }
+  .gradient {
+    background: linear-gradient(349.59deg, #490f8f 2.58%, #7616ec 52.73%);
   }
 }

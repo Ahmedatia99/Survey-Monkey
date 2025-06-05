@@ -1,4 +1,5 @@
 import React from "react";
+import FeatureCard from "@/components/comman/FeatureCard";
 import {
   SquarePen,
   SquareMenu,
@@ -13,16 +14,22 @@ const Feature = () => {
     {
       icon: <SquarePen strokeWidth={2.5} size={30} className={iconClassName} />,
       title: "Intuitive Survey Creation",
+      description:
+        "Easily design surveys with a user-friendly interface and customizable templates.",
     },
     {
       icon: (
         <SquareMenu strokeWidth={2.5} size={30} className={iconClassName} />
       ),
       title: "Advanced Survey Management",
+      description:
+        "Organize and manage your surveys efficiently with powerful tools and features.",
     },
     {
       icon: <Waypoints strokeWidth={2.5} size={30} className={iconClassName} />,
       title: "Real-time Data Tracking",
+      description:
+        "Drag-and-drop editor with customizable templates to create professional surveys in minutes without any technical skills.",
     },
     {
       icon: (
@@ -33,16 +40,22 @@ const Feature = () => {
         />
       ),
       title: "Comprehensive Analytics",
+      description:
+        "Gain insights with detailed analytics and reporting tools to make data-driven decisions.",
     },
     {
       icon: <Zap strokeWidth={2.5} size={30} className={iconClassName} />,
       title: "Lightning-fast Insights",
+      description:
+        "Get instant feedback and insights with our real-time data processing capabilities.",
     },
     {
       icon: (
         <ShieldCheck strokeWidth={2.5} size={30} className={iconClassName} />
       ),
       title: "Secure Data Collection",
+      description:
+        "Drag-and-drop editor with customizable templates to create professional surveys in minutes without any technical skills.",
     },
   ];
   return (
@@ -60,21 +73,13 @@ const Feature = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10">
-        {icons.map(({ icon, title }) => (
-          <div
-            className="flex flex-col justify-center items-center bg-[#BF4EE81F] px-5 py-10 rounded-lg"
+        {icons.map(({ icon, title, description }) => (
+          <FeatureCard
             key={title}
-          >
-            {icon}
-            <h1 className="text-purple font-bold mt-3 mb-2 text-lg">{title}</h1>
-            <p className="text-sm text-gray-600 text-center w-auto lg:w-96 font-semibold dark:text-gray-400">
-              Drag-and-drop editor with customizable templates to create
-              <br />
-              professional surveys in minutes.
-              <br />
-              No technical skills required.
-            </p>
-          </div>
+            icon={icon}
+            title={title}
+            description={description}
+          />
         ))}
       </div>
     </section>
