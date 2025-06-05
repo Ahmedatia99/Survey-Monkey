@@ -83,4 +83,10 @@
   .gradient {
     background: linear-gradient(349.59deg, #490f8f 2.58%, #7616ec 52.73%);
   }
+  .back-img {
+    background-image: url("../assets/images/logo-overlay.png");
+    background-size: 600px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }

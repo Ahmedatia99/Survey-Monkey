@@ -5,6 +5,7 @@ import Solutions from "@/components/home/Solutions";
 import HowWork from "@/components/home/HowWork";
 import SurveyTemplates from "@/components/home/SurveyTemplates";
 import ChoiceOutTemplate from "@/components/home/ChoiceOutTemplate";
+import AnalysisComers from "@/components/home/AnalysisComers";
 const Home = () => {
   return (
     <section className="container mx-auto px-5">
@@ -14,6 +15,7 @@ const Home = () => {
       <HowWork />
       <SurveyTemplates />
       <ChoiceOutTemplate />
+      <AnalysisComers />
     </section>
   );
 };

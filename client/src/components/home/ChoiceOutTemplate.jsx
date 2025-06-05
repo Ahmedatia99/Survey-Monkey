@@ -31,7 +31,7 @@ const ChoiceOutTemplate = () => {
   return (
     <section className="py-20">
       <div className="flex flex-col items-center justify-center text-center">
-        <h1 className="sup-heading max-w-3xl text-3xl lg:text-5xl md:text-4xl">
+        <h1 className="sup-heading max-w-3xl text-3xl lg:text-4xl md:text-4xl">
           Why Choose Our
           <span className="heading ml-2">Templates?</span>
         </h1>
