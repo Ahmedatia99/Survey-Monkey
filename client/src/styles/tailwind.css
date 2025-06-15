@@ -90,3 +90,9 @@
     background-repeat: no-repeat;
   }
 }
+.slick-slide {
+  margin-right: 10px;
+}
+.slick-track {
+  display: flex;
+}
