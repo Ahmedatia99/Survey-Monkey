@@ -1,5 +1,6 @@
 import React from "react";
 import FAQ from "@/components/comman/FAQ";
+import SectionTitle from "@/components/comman/SectionTitle";
 import {
   CircleHelp,
   LockKeyhole,
@@ -41,15 +42,13 @@ const Questions = () => {
     },
   ];
   return (
-    <section>
-      <div>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center  text-midnight dark:text-white mb-5">
-          <span className="text-purple">Frequently</span> Asked Questions
-        </h2>
-        <p className="text-center text-gray-600 dark:text-gray-400 mb-6">
-          Every thing you need to know about creating surveys
-        </p>
-      </div>
+    <section className="py-20">
+      <SectionTitle
+        classname="text-purple"
+        leftTitle="Frequently"
+        subTitle="Asked Questions"
+        description="Find answers to common questions about our survey platform."
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-4">
         <FAQ questions={questions} />
       </div>
