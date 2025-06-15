@@ -10,7 +10,7 @@ const DetailsTemplateCard = ({
   quesNum,
 }) => {
   return (
-    <div className="w-full sm:max-w-sm md:max-w-md bg-white dark:bg-[#BF4EE81F] rounded-xl shadow-lg p-3">
+    <div className="w-full sm:max-w-sm md:max-w-md bg-gray-50 dark:bg-[#BF4EE81F] rounded-xl shadow-lg p-3">
       <div className="w-fit flex items-center gap-2 mb-4 bg-[#BF4EE81F] px-2 py-1 rounded-lg text-midnight dark:text-white">
         {icon} <h2 className="text-sm font-semibold">{tempTitle}</h2>
       </div>

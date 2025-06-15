@@ -8,6 +8,7 @@ import ChoiceOutTemplate from "@/components/home/ChoiceOutTemplate";
 import AnalysisComers from "@/components/home/AnalysisComers";
 import Questions from "./../components/home/Questions";
 import UsersComments from "./../components/home/UsersComments";
+import PricingPlans from "./../components/home/PricingPlans";
 const Home = () => {
   return (
     <section className="container mx-auto px-5">
@@ -20,6 +21,7 @@ const Home = () => {
       <AnalysisComers />
       <Questions />
       <UsersComments />
+      <PricingPlans />
     </section>
   );
 };
