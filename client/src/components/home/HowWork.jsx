@@ -1,5 +1,5 @@
 import React from "react";
-
+import SectionTitle from "../comman/SectionTitle";
 const HowWork = () => {
   const information = [
     {
@@ -20,12 +20,12 @@ const HowWork = () => {
   ];
   return (
     <section className="px-5 py-20">
-      <h1 className="text-3xl md:text-6xl lg:text-5xl text-midnight dark:text-white font-bold text-center">
-        <span className="text-purple ">How</span> it Works
-      </h1>
-      <p className="text-sm mb-6 text-gray-600 dark:text-gray-300 max-w-md mt-5 text-center mx-auto">
-        Create your first survey in minutes, not hours.
-      </p>
+      <SectionTitle
+        classname="text-purple"
+        leftTitle="How"
+        subTitle="It Works"
+        description="Create your first survey in minutes, not hours."
+      />
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10">
         {information.map((info, index) => (
           <div

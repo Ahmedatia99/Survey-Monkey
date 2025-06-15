@@ -3,17 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import GroupOfTemplates from "./GroupOfTemplates";
 import CardsMainTemp from "./CardsMainTemp";
+import SectionTitle from "@/components/comman/SectionTitle";
 const SurveyTemplates = () => {
   return (
     <section>
-      <div>
-        <h1 className="text-3xl md:text-6xl lg:text-5xl text-midnight dark:text-white font-bold text-center">
-          Professional Survey<span className="text-purple "> Templates</span>
-        </h1>
-        <p className="text-sm mb-6 text-gray-600 dark:text-gray-300 max-w-md mt-5 text-center mx-auto">
-          Choose from a variety of templates to get started quickly.
-        </p>
-      </div>
+      <SectionTitle
+        subTitle="Professional Survey "
+        rightTitle="Templates"
+        description="Choose from a variety of templates to get started quickly."
+      />
       {/* search input */}
       <div className="flex justify-center items-center mt-5">
         <input

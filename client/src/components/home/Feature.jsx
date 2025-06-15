@@ -1,5 +1,6 @@
 import React from "react";
 import FeatureCard from "@/components/comman/FeatureCard";
+import SectionTitle from "@/components/comman/SectionTitle";
 import {
   SquarePen,
   SquareMenu,
@@ -60,17 +61,13 @@ const Feature = () => {
   ];
   return (
     <section className="py-20">
-      <div className="flex flex-col items-center justify-center text-center">
-        <h1 className="sup-heading max-w-3xl text-3xl lg:text-5xl md:text-4xl">
-          <span className="heading mr-2">Powerful</span>
-          features to transform your data
-          <span className="heading ml-2">collection</span>
-        </h1>
-        <p className="sup-info text-sm md:text-lg">
-          Everything you need to create, distribute, and analyze surveys that
-          deliver actionable insights.
-        </p>
-      </div>
+      <SectionTitle
+        classname="text-purple"
+        leftTitle="Powerful"
+        rightTitle="collection"
+        subTitle="features to transform your data"
+        description="Discover the powerful features that make our survey platform the best choice for your data collection needs."
+      />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10">
         {icons.map(({ icon, title, description }) => (

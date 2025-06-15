@@ -1,6 +1,7 @@
 import React from "react";
 import { WandSparkles, SlidersHorizontal, ChartPie } from "lucide-react";
 import FeatureCard from "@/components/comman/FeatureCard";
+import SectionTitle from "@/components/comman/SectionTitle";
 const ChoiceOutTemplate = () => {
   const iconClassName = "text-purple font-bold";
   const icons = [
@@ -30,12 +31,7 @@ const ChoiceOutTemplate = () => {
   ];
   return (
     <section className="py-20">
-      <div className="flex flex-col items-center justify-center text-center">
-        <h1 className="sup-heading max-w-3xl text-3xl lg:text-5xl md:text-4xl">
-          Why Choose Our
-          <span className="heading ml-2">Templates?</span>
-        </h1>
-      </div>
+      <SectionTitle leftTitle="Why Choose Our" rightTitle="Templates?" />
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10">
         {icons.map(({ icon, title, description }) => (
           <FeatureCard
