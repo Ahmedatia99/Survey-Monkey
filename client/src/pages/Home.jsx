@@ -12,7 +12,7 @@ import PricingPlans from "./../components/home/PricingPlans";
 import CustomerStories from "./../components/home/CustomerStories";
 const Home = () => {
   return (
-    <section className="container mx-auto px-5">
+    <section className="container mx-auto px-5 overflow-hidden">
       <Hero />
       <Feature />
       <Solutions />

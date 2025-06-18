@@ -43,7 +43,7 @@ const SuccessCard = () => {
           <p className="text-gray-600 dark:text-white text-sm pb-4 pt-2">
             {card.description}
           </p>
-          <Button className="bg-transparent dark:bg-purple border border-purple text-sm font-medium text-gray-700 dark:text-white hover:opacity-80 transition-all mt-auto">
+          <Button className="bg-transparent dark:bg-purple border border-purple text-sm font-medium text-gray-700 dark:text-white hover:bg-transparent hover:opacity-80 transition-all mt-auto">
             View Success story
           </Button>
         </div>

@@ -13,6 +13,7 @@ export default {
         purple: "#7616EC",
         purple500: "#bf4ee81f",
         midnight: "#313131",
+        footer: "#210048",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
