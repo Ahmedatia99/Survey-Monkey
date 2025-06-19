@@ -7,7 +7,7 @@ import Signup from "./pages/Signup";
 import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Feature from "./pages/Feature";
-
+import Footer from "./components/comman/Footer";
 function App() {
   return (
     <>
@@ -24,6 +24,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
         </Routes>
+        <Footer />
       </ThemeProvider>
     </>
   );
