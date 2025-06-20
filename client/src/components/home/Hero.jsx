@@ -6,7 +6,7 @@ import model from "/image/landing-person.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col  md:flex-col lg:flex-row justify-center items-center py-10 lg:py-20 gap-8 lg:gap-10 px-4 md:px-8">
+    <div className="flex flex-col  md:flex-col lg:flex-row justify-center items-center pt-24 md:pt-40 lg:pt-64 gap-8 lg:gap-10 px-4 md:px-8">
       <section className=" lg:w-1/2 flex flex-col items-start  justify-center">
         <h1 className="heading text-3xl lg:text-5xl md:text-4xl">
           Create powerful surveys

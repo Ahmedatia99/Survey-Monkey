@@ -60,7 +60,7 @@ const Feature = () => {
     },
   ];
   return (
-    <section className="py-20">
+    <section className="pb-20 pt-20 md:pt-32">
       <SectionTitle
         classname="text-purple"
         leftTitle="Powerful"
