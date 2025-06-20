@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import FaqQuestions from "@/components/faq/FaqQuestions";
+import FaqHeading from "./../components/faq/FaqHeading";
 
 const FAQ = () => {
   return (
-    <div>FAQ</div>
-  )
-}
+    <section className="container mx-auto px-5 py-10">
+      <FaqHeading />
+      <FaqQuestions />
+    </section>
+  );
+};
 
-export default FAQ
+export default FAQ;
