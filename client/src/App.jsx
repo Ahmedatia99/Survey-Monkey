@@ -8,6 +8,7 @@ import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Feature from "./pages/Feature";
 import Footer from "./components/comman/Footer";
+import Dashboard from "@/pages/Dashboard.jsx";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/feature" element={<Feature />} />
           <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
         <Footer />
       </ThemeProvider>
