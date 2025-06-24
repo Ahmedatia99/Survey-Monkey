@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import signinBackground from '../assets/images/background-signin.png'
 import signupBackground from '../assets/images/background-signup.png';
 import logo from '../assets/images/logo.png';
@@ -22,33 +23,29 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Tabs */}
-        <div className="flex mb-6 sm:mb-8 bg-gray-100 p-1 rounded-lg w-full max-w-xs">
-          <button
-            onClick={() => setActiveTab('login')}
-            className={`flex-1 px-4 sm:px-6 py-2 rounded-md font-medium transition-all duration-200 text-sm sm:text-base ${
-              activeTab === 'login'
-                ? 'bg-white text-[#6441A5] shadow-sm'
-                : 'text-gray-600 hover:text-gray-800'
-            }`}
-          >
-            Sign In
-          </button>
-          <button
-            onClick={() => setActiveTab('signup')}
-            className={`flex-1 px-4 sm:px-6 py-2 rounded-md font-medium transition-all duration-200 text-sm sm:text-base ${
-              activeTab === 'signup'
-                ? 'bg-white text-[#6441A5] shadow-sm'
-                : 'text-gray-600 hover:text-gray-800'
-            }`}
-          >
-            Sign Up
-          </button>
-        </div>
+        {/* Shadcn Tabs */}
+        <Tabs 
+          value={activeTab} 
+          onValueChange={setActiveTab} 
+          className="w-full max-w-md"
+        >
+          <TabsList className="grid w-full grid-cols-2 mb-6 sm:mb-8 bg-gray-100 p-1 rounded-lg max-w-xs mx-auto">
+            <TabsTrigger 
+              value="login"
+              className="data-[state=active]:bg-white data-[state=active]:text-[#6441A5] data-[state=active]:shadow-sm text-gray-600 hover:text-gray-800 font-medium text-sm sm:text-base transition-all duration-200"
+            >
+              Sign In
+            </TabsTrigger>
+            <TabsTrigger 
+              value="signup"
+              className="data-[state=active]:bg-white data-[state=active]:text-[#6441A5] data-[state=active]:shadow-sm text-gray-600 hover:text-gray-800 font-medium text-sm sm:text-base transition-all duration-200"
+            >
+              Sign Up
+            </TabsTrigger>
+          </TabsList>
 
-        {/* Login Form */}
-        {activeTab === 'login' && (
-          <div className="w-full max-w-md">
+          {/* Login Form */}
+          <TabsContent value="login" className="mt-0">
             <form className="space-y-4 sm:space-y-6">
               <div className="space-y-2">
                 <label className="block text-sm font-semibold text-gray-700">
@@ -99,12 +96,10 @@ const Login = () => {
                 </p>
               </div>
             </form>
-          </div>
-        )}
+          </TabsContent>
 
-        {/* Signup Form */}
-        {activeTab === 'signup' && (
-          <div className="w-full max-w-md">
+          {/* Signup Form */}
+          <TabsContent value="signup" className="mt-0">
             <form className="space-y-4 sm:space-y-5">
               <div className="space-y-2">
                 <label className="block text-sm font-semibold text-gray-700">
@@ -161,8 +156,8 @@ const Login = () => {
                 </p>
               </div>
             </form>
-          </div>
-        )}
+          </TabsContent>
+        </Tabs>
       </div>
       
       <div className="w-full lg:w-1/2 h-64 sm:h-80 lg:h-screen overflow-hidden relative order-1 lg:order-2">
