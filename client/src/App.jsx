@@ -6,7 +6,9 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-
+import Feature from "./pages/Feature";
+import Footer from "./components/comman/Footer";
+import Dashboard from "@/pages/Dashboard.jsx";
 function App() {
   return (
     <>
@@ -19,9 +21,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/feature" element={<Feature />} />
+          <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
+        <Footer />
       </ThemeProvider>
     </>
   );
