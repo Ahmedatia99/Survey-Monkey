@@ -29,7 +29,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="flex items-center py-6 px-5">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md flex items-center py-2 px-5 border-b-2 border-gray-100 dark:border-gray-500 dark:bg-midnight">
       <nav className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -58,7 +58,7 @@ const Navbar = () => {
               <DialogTrigger asChild>
                 <Button
                   variant="outline"
-                  className=" text-white text-lg p-5 max-sm:p-2 max-sm:px-4 max-sm:text-sm"
+                  className=" text-white text-lg p-5 max-sm:p-2 max-sm:px-4 max-sm:text-sm hover:text-white hover:opacity-80"
                   style={{
                     background:
                       "linear-gradient(320.2deg, #490F8F -0.43%, #7616EC 58.46%)",
