@@ -8,9 +8,8 @@ import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Feature from "./pages/Feature";
 import Footer from "./components/comman/Footer";
-
+import Pricing from "./pages/Pricing";
 import FAQ from "./pages/FAQ";
-import Feature from "./pages/Feature";
 import Dashboard from "@/pages/Dashboard.jsx";
 
 function App() {
@@ -27,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/feature" element={<Feature />} />
+          <Route path="/Pricing" element={<Pricing />} />
           <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />

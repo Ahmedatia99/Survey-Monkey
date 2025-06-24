@@ -21,7 +21,7 @@ const navbar = [
   { label: "AboutUS", to: "/about" },
   { label: "Features", to: "/feature" },
   { label: "FAQs", to: "/faq" },
-  //   { label: "Pricing", to: "/pricing" },
+   { label: "Pricing", to: "/pricing" },
   //   { label: "ContactUs", to: "/contact" },
 ];
 
