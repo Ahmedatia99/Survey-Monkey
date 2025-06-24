@@ -10,7 +10,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 const Feature = () => {
-  const iconClassName = "text-purple font-bold";
+  const iconClassName = "text-purple font-bold ";
   const icons = [
     {
       icon: <SquarePen strokeWidth={2.5} size={30} className={iconClassName} />,
@@ -76,6 +76,7 @@ const Feature = () => {
             icon={icon}
             title={title}
             description={description}
+            className="text-center"
           />
         ))}
       </div>

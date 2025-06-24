@@ -14,7 +14,7 @@ const SectionTitle = ({
         <span className="text-midnight dark:text-white"> {subTitle}</span>
         <span className="text-purple">{rightTitle}</span>
       </h2>
-      <p className="text-sm mb-6 text-gray-600 dark:text-gray-300 mt-5 text-center mx-auto description-info md:text-lg">
+      <p className="text-sm mb-6 text-gray-600 dark:text-gray-300 mt-5 text-center mx-auto description-info md:text-lg whitespace-pre-line">
         {description}
       </p>
     </div>
