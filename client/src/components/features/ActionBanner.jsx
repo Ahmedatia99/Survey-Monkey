@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 const ActionBanner = () => {
   return (
     <section className="my-40">
-      <div className="flex flex-col lg:flex-row justify-between items-center mb-40">
+      <div className="flex flex-col gap-6 lg:flex-row justify-between items-center mb-40">
         <div>
           <h1 className="text-3xl text-purple font-bold">
             Create Engaging Surveys in Minutes
@@ -59,8 +59,8 @@ const ActionBanner = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src="/public/image/featuresPH.jpg" alt="" />
+        <div className="bg-[#FFFFFF] p-8 dark:bg-[#bf4ee81f]"> 
+          <img src="/public/image/Group.png" alt="" className="w-[400px]" />
         </div>
       </div>
     </section>

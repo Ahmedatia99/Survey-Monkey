@@ -62,7 +62,7 @@ export const FeaturesList = () => {
           icon={<div className="bg-[#BF4EE81F] p-2 rounded-[8px]">{icon}</div>}
           title={title}
           description={description}
-          className="!items-start !text-left bg-[#F9F9F9] md:overflow-hidden !p-3"
+          className="!items-start !text-left bg-[#F9F9F9] md:overflow-hidden !p-3 dark:bg-[#bf4ee81f]"
         >
           <div className="mt-auto ml-auto">
             <button className=" flex gap-1 items-center  text-purple ">
