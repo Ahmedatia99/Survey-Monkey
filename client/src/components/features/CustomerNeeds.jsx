@@ -56,7 +56,7 @@ const CustomerNeeds = () => {
             icon={icon}
             title={title}
             description={description}
-            className="text-center !bg-[#FFFFFF]  rounded-xl shadow-[0_10px_20px_rgba(0,0,0,0.12)] md:shadow-[0_0_20px_rgba(0,0,0,0.12)]  md:shadow-black/15  shadow-black/15 !p-3"
+            className="text-center dark:!bg-[#bf4ee81f]  !bg-[#FFFFFF] rounded-xl shadow-[0_10px_20px_rgba(0,0,0,0.12)] md:shadow-[0_0_20px_rgba(0,0,0,0.12)]  md:shadow-black/15  shadow-black/15 !p-3 "
           />
         ))}
       </div>
