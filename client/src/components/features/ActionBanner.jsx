@@ -9,7 +9,8 @@ const ActionBanner = () => {
             Create Engaging Surveys in Minutes
           </h1>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
+            <div className="bg-purple500
+             p-1 rounded-lg h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -27,7 +28,8 @@ const ActionBanner = () => {
             </div>
           </div>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
+            <div className="bg-purple500
+             p-1 rounded-[8px] h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -42,7 +44,8 @@ const ActionBanner = () => {
             </div>
           </div>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
+            <div className="bg-purple500
+             p-1 rounded-[8px] h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -59,8 +62,8 @@ const ActionBanner = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#FFFFFF] p-8 dark:bg-[#bf4ee81f]"> 
-          <img src="/public/image/Group.png" alt="" className="w-[400px]" />
+        <div > 
+          <img src="/public/image/Group.png" alt="" className="hidden md:block w-auto aspect-auto" />
         </div>
       </div>
     </section>

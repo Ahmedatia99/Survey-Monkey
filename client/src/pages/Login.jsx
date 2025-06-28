@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import signinBackground from '../assets/images/background-signin.png'
-import signupBackground from '../assets/images/background-signup.png';
-import logo from '../assets/images/logo.png';
+import signinBackground from '@/assets/images/background-signin.png'
+import signupBackground from '@/assets/images/background-signup.png';
+import logo from '@/assets/images/logo.png';
 import { Link } from 'react-router';
 
 const Login = () => {

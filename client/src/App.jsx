@@ -8,9 +8,7 @@ import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Feature from "./pages/Feature";
 import Footer from "./components/comman/Footer";
-
 import FAQ from "./pages/FAQ";
-import Feature from "./pages/Feature";
 import Dashboard from "@/pages/Dashboard.jsx";
 
 function App() {
