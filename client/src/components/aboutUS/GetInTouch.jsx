@@ -1,5 +1,5 @@
 import { MapPin , Phone , Mail, Instagram , Twitter , Facebook} from "lucide-react"
-import { Button } from "@material-tailwind/react"
+import { Button } from "@/components/ui/button";
 const GetInTouch = () => {
   return (
     <section className="flex flex-col items-center justify-center w-full h-full my-16 p-4" >

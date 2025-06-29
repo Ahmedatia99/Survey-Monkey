@@ -1,9 +1,6 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
 import Navbar from "./components/comman/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Feature from "./pages/Feature";
@@ -11,6 +8,9 @@ import Footer from "./components/comman/Footer";
 import Pricing from "./pages/Pricing";
 import FAQ from "./pages/FAQ";
 import Dashboard from "@/pages/Dashboard.jsx";
+import RegisterPage from "@/pages/RegisterPage";
+import Login from "./components/register/Login";
+import Signup from "./components/register/Signup";
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/" element={<Login />} />
           <Route path="/" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
         <Footer />
       </ThemeProvider>

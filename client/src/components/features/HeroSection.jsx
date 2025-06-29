@@ -4,20 +4,20 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <>
-      <div className="place-items-center">
+      <div className="pt-24 md:pt-40 place-items-center">
         <div className="flex items-center justify-center mb-16">
           <img
             src={logo}
-            alt=""
+            alt="survey money"
             className="w-12 h-12 sm:w-24 sm:h-20"
             style={{ transform: "rotate(30deg)" }}
           />
-          <h1 className="mx-2 text-5xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-midnight">
+          <h1 className="mx-2 text-5xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-midnight dark:text-purple">
             FEATURES
           </h1>
           <img
             src={logo}
-            alt=""
+            alt="survey money"
             className="w-12 h-12 sm:w-24 sm:h-20"
             style={{ transform: "rotate(30deg)" }}
           />

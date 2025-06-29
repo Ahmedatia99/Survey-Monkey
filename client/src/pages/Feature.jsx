@@ -9,7 +9,7 @@ const Feature = () => {
     <>
       <section className="container mx-auto px-5">
         <HeroSection />
-        <FeaturesList />
+        <FeaturesList /> 
         <CustomerNeeds />
         <ActionBanner />
       </section>
