@@ -5,7 +5,7 @@ const Footer = () => {
   const iconClass =
     "w-5 h-5 text-gray-400 hover:text-gray-300 transition-colors duration-300";
   return (
-    <footer className="mx-auto w-full bg-footer text-gray-300 p-4 py-8 px-4 sm:px-6 mt-5 md:mt-20">
+    <footer className="mx-auto w-full bg-footer text-gray-300 p-4 py-8 px-4 sm:px-6">
       <div className="container mx-auto flex flex-col gap-10 md:flex-row md:justify-between md:items-start flex-wrap">
         <div className="flex-1  mb-8 md:mb-0">
           <div className="flex items-center mb-2">
