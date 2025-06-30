@@ -22,6 +22,7 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
           <Button
+            variant="default"
             className="capitalize dark:text-white py-4 px-8 text-base sm:py-5 sm:px-20 sm:text-lg"
             style={{
               background:
@@ -30,7 +31,7 @@ const Hero = () => {
           >
             get started
           </Button>
-          <Button className="capitalize dark:text-white py-4 px-8 text-base sm:py-5 sm:px-10 sm:text-lg bg-transparent border-0 shadow-none text-purple hover:bg-transparent">
+          <Button variant="secondary">
             templates <MoveRight />
           </Button>
         </div>
