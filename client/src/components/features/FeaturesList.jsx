@@ -59,14 +59,14 @@ export const FeaturesList = () => {
       {icons.map(({ icon, title, description }) => (
         <FeatureCard
           key={title}
-          icon={<div className="bg-[#BF4EE81F] p-2 rounded-[8px]">{icon}</div>}
+          icon={<div className="p-2 rounded-md">{icon}</div>}
           title={title}
           description={description}
-          className="!items-start !text-left bg-[#F9F9F9] md:overflow-hidden !p-3 dark:bg-[#bf4ee81f]"
+          className="!items-start !text-left bg-purple500 md:overflow-hidden !p-3"
         >
           <div className="mt-auto ml-auto">
             <button className=" flex gap-1 items-center  text-purple ">
-              see more <ArrowRight size={20}/>
+              see more <ArrowRight size={20} />
             </button>
           </div>
         </FeatureCard>

@@ -2,7 +2,7 @@ import React from "react";
 
 const CreateSurvey = () => {
   return (
-    <section className=" mb-40 h-[300px] bg-gradient-to-r from-purple via-purple/90 to-midnight text-white flex flex-col gap-4 items-center justify-center text-center">
+    <section className="mb-10 md:mb-20 h-[300px] bg-gradient-to-r from-purple via-purple/90 to-midnight text-white flex flex-col gap-4 items-center justify-center text-center">
       <h1 className="text-xl font-bold">Ready to Create Your First Survey?</h1>
       <p className="text-base font-extralight">
         Join thousands of professionals who trust SurveyPro for their research
