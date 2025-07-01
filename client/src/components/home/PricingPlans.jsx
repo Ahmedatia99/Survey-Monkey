@@ -46,7 +46,7 @@ const PricingPlans = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mt-10">
         {plans.map((plan, index) => (
-          <PlanCard key={index} {...plan} />
+          <PlanCard key={index} {...plan} showCheckmarks={true}/>
         ))}
       </div>
     </section>
