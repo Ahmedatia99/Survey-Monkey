@@ -9,7 +9,6 @@ import {
 import { Button } from "@/components/ui/button";
 const GetInTouch = () => {
   return (
-
     <section className="flex flex-col items-center justify-center w-full h-full my-16 p-4" >
         <section className="text-center ">
             <h1 className="font-Sarabun font-bold text-[30px] mb-[10px] xl:text-[64px] text-[#7616EC]">Get in Touch</h1>
