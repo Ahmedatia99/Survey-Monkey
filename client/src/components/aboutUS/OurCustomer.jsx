@@ -69,11 +69,11 @@ const TestimonialSlider = () => {
   return (
     <div className=" bg-[#E0E0E042] p-[50px]">
       <section className="text-center mb-16">
-           <h1 className="font-Sarabun font-bold text-[64px] text-[#7616EC]">What Our Customers Say</h1>
-           <p className="font-Sarabun font-normal text-[28px]" >Discover how organizations are using Survey Infinity to transform feedback into meaningful insights and action.</p>       
+           <h1 className="font-Sarabun font-bold text-[30px] text-[] xl:text-[64px] text-[#7616EC]">What Our Customers Say</h1>
+           <p className="font-Sarabun font-normal text-[20px] pt-[10px] xl:text-[28px]" >Discover how organizations are using Survey Infinity to transform feedback into meaningful insights and action.</p>       
       </section>
       {/* Testimonial Content */}
-      <div className="relative overflow-hidden w-[80%] mx-auto bg-[#F2F2F2] py-4 px-3">
+      <div className="relative overflow-hidden xl:w-[80%] mx-auto bg-[#F2F2F2] py-4 px-3">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{ width: `${testimonials.length * 100}%`, transform: `translateX(-${currentIndex * (100 / testimonials.length)}%)` }}
@@ -84,14 +84,14 @@ const TestimonialSlider = () => {
               className="flex-shrink-0 px-4"
               style={{ width: `${100 / testimonials.length}%` }}
             >
-              <div className="rounded-2xl w-full p-8 border border-gray-100">
-                <div className="flex flex-col w-[80%]  lg:flex-row items-center lg:items-start gap-12 mx-auto">
+              <div className="rounded-2xl w-full xl:p-8 border border-gray-100">
+                <div className="flex flex-col xl:w-[80%]  lg:flex-row items-center lg:items-start gap-12 mx-auto">
                   {/* Profile Image */}
                   <div className="flex-shrink-0">
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="w-24 h-24 lg:w-64 lg:h-64 rounded-2xl object-cover border-4 border-white shadow-lg"
+                      className="w-26 h-26 lg:w-64 lg:h-64 rounded-2xl object-cover border-4 border-white shadow-lg"
                     />
                   </div>
 
@@ -111,7 +111,7 @@ const TestimonialSlider = () => {
                       <h4 className="font-semibold text-gray-900 text-start text-lg">
                         {testimonial.name}
                       </h4>
-                      <p className="text-gray-600 text-start capitalize">
+                      <p className="text-gray-600 text-[16px] xl:text-start capitalize">
                         {testimonial.title}
                       </p>
                     </div>
