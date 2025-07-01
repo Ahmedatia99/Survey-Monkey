@@ -34,7 +34,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="logo" className="w-16 h-auto max-sm:w-12" />
-          <h1 className="lg:text-2xl md:text-lg max-sm:text-xl text-midnight dark:text-white">
+          <h1 className="text-sm lg:text-2xl md:text-lg text-midnight dark:text-white">
             <span className="text-purple font-bold mr-1">Survey</span>Infinity
           </h1>
         </div>
