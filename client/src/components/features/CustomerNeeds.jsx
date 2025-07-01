@@ -42,7 +42,7 @@ const CustomerNeeds = () => {
   ];
 
   return (
-    <div className=" my-40">
+    <div className="py-10 md:py-20">
       <SectionTitle
         classname="text-purple"
         rightTitle="All Your Needs"
