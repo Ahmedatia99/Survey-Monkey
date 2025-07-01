@@ -10,7 +10,6 @@ const About = () => {
   return (
     <div className='w-full '>
       <HeroSection />
-      <ImageCards/>
       <OurCoreValue/>
       <OurStory/>
       <OurLeaderShip/>
