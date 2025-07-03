@@ -6,6 +6,7 @@ const SectionTitle = ({
   subTitle,
   description,
   classname,
+  children
 }) => {
   return (
     <div className="flex flex-col items-center justify-center text-center">
@@ -17,6 +18,7 @@ const SectionTitle = ({
       <p className="text-sm mb-6 text-gray-600 dark:text-gray-300 mt-5 text-center mx-auto description-info md:text-lg whitespace-pre-line">
         {description}
       </p>
+      {children}
     </div>
   );
 };
