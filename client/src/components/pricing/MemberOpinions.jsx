@@ -54,7 +54,7 @@ const MembersData = [
 ];
 const MemberOpinions = () => {
   return (
-    <div className=" mx-auto my-12 relative bg-[#F7F7F7] p-14">
+    <div className=" mx-auto my-12 relative dark:bg-[#5c2a6e1f] bg-[#F7F7F7] p-14">
       <div className="mb-24">
         <SectionTitle classname="text-purple" leftTitle="Trusted by thousands">
           <p className="!text-purple !text-sm absolute top-24">
@@ -81,7 +81,7 @@ const MemberOpinions = () => {
       >
         {MembersData.map((member, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white py-4 px-2 rounded-2xl">
+            <div className="bg-white dark:bg-[#bf4ee81f] py-4 px-2 rounded-2xl">
               <p className="text-sm font-normal">{member.comment}</p>
               <div className="flex items-center py-2">
                 <div>
