@@ -3,6 +3,7 @@ import PricingHeroSection from "../components/pricing/PricingHeroSection";
 import PricingSection from "../components/pricing/PricingSection";
 import ComparePlans from "../components/pricing/ComparePlans";
 import MemberOpinions from "../components/pricing/MemberOpinions";
+import GetStarted from "../components/pricing/GetStarted";
 const PricingPage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const PricingPage = () => {
         <ComparePlans />
       </section>
       <MemberOpinions />
+      <GetStarted/>
     </>
   );
 };
