@@ -1,5 +1,5 @@
 import { Heart, Lightbulb, Users } from "lucide-react"
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const OurCoreValue = () => {
   const itemVariants = {

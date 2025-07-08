@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 const PricingHeroSection = () => {
   return (
     <>
-      <div className="place-items-center">
+      <div className="pt-24 md:pt-40 place-items-center">
         <SectionTitle
           classname="text-purple"
           leftTitle="choose"

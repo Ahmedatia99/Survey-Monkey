@@ -2,7 +2,7 @@ import HeroImage from "@/assets/AboutUS/HeroImage.png";
 import { Button } from "@/components/ui/button";
 import img1 from "@/assets/AboutUS/man.png";
 import img2 from "@/assets/AboutUS/lab.png";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 const HeroSection = () => {
   // Animation variants
   const containerVariants = {
