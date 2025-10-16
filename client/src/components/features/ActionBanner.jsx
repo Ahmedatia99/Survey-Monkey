@@ -2,17 +2,14 @@ import { Check } from "lucide-react";
 
 const ActionBanner = () => {
   return (
-    <section className="py-10 md:py-20 ">
-      <div className="flex flex-col gap-6 lg:flex-row justify-between items-center mb-10 md:mb-20">
+    <section className="my-40">
+      <div className="flex flex-col gap-6 lg:flex-row justify-between items-center mb-40">
         <div>
           <h1 className="text-3xl text-purple font-bold">
             Create Engaging Surveys in Minutes
           </h1>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div
-              className="bg-purple500
-             p-1 rounded-lg h-fit"
-            >
+            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -30,10 +27,7 @@ const ActionBanner = () => {
             </div>
           </div>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div
-              className="bg-purple500
-             p-1 rounded-[8px] h-fit"
-            >
+            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -48,10 +42,7 @@ const ActionBanner = () => {
             </div>
           </div>
           <div className="flex gap-3 mt-9 ml-6 max-w-[400px]">
-            <div
-              className="bg-purple500
-             p-1 rounded-[8px] h-fit"
-            >
+            <div className="bg-[#BF4EE81F] p-1 rounded-[8px] h-fit">
               <Check
                 strokeWidth={2}
                 size={20}
@@ -68,12 +59,8 @@ const ActionBanner = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img
-            src="/public/image/Group.png"
-            alt=""
-            className="hidden md:block w-auto aspect-auto"
-          />
+        <div className="bg-[#FFFFFF] p-8 dark:bg-[#bf4ee81f]"> 
+          <img src="/public/image/Group.png" alt="" className="w-[400px]" />
         </div>
       </div>
     </section>
