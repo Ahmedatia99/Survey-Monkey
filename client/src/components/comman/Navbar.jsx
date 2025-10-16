@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,useLocation } from "react-router-dom";
 import logo from "/image/survey-money-logo.png";
 import { Button } from "@/components/ui/button";
 import {
@@ -27,7 +27,7 @@ const navbar = [
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const location = useLocation();
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md flex items-center py-2 px-5 border-b-2 border-gray-100 dark:border-gray-500 dark:bg-midnight">
       <nav className="container mx-auto flex items-center justify-between">
@@ -41,9 +41,9 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:block">
-          <ul className="flex gap-8">
+          <ul className="flex items-center gap-8 h-full text-md font-semibold mr-2">
             {navbar.map((item) => (
-              <li className="nav" key={item.to}>
+              <li className={`p-3 h-full ${location.pathname === item.to ? "bg-purple text-white px-2 py-1 rounded-lg" : ""}`} key={item.to}>
                 <Link to={item.to}>{item.label}</Link>
               </li>
             ))}

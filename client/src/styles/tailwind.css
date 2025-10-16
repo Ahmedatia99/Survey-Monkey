@@ -69,7 +69,7 @@
 
 @layer utilities {
   .nav {
-    @apply text-midnight border-b-2 border-transparent hover:text-purple hover:border-b-2 hover:border-purple transition-colors duration-300 text-xl md:text-lg font-semibold dark:text-white dark:hover:text-purple;
+    @apply text-midnight border-b-2 border-transparent hover:text-purple hover:border-b-2 transition-colors duration-300 text-xl md:text-lg font-semibold dark:text-white dark:hover:text-purple;
   }
   .heading {
     @apply text-purple font-bold;
